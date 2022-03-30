@@ -1,19 +1,10 @@
-# php-storm-issue-1
+# Project #1
 
-## Project setup
-```
-npm install
-```
+This project will be used in other projects so that they can use the "MyComponent1" component.
 
-### Compiles and hot-reloads for development
+I tried to simplify the approach described in the initial post, so the @components alias is used for the components directory
+
+In the App.vue file, you can see that PhpStorm understands the alias without any problems. To start the development server, write:
 ```
 npm run serve
 ```
-
-### Compiles and minifies for production
-```
-npm run build
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
